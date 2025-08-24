@@ -1,2 +1,2 @@
-# Start.java
-My basic Java practice codes and small projects
+# Start.Mern-Stack
+My basic Web Dev practice codes and small projects
