@@ -1,0 +1,21 @@
+h1{
+    color: hsl(245, 88%, 41%);
+    font-style: inherit;
+    text-align: center;
+    background-color: aqua;
+}
+h2{
+    color: rgb(234, 155, 18);
+     background-color: aquamarine;
+}
+table ul{
+    color: rgb(84, 214, 19);
+
+}
+p{
+    color: rgb(13, 9, 223);
+    background-color: blanchedalmond;
+}
+footer{
+    color: aqua;
+}
