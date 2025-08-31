@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: beige;
+            border: 5px solid black;
+        }
+        .box{
+            height: 80px;
+            width : 350px;
+            background-color: aqua;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            animation-name: rightMovement;
+            animation-duration:5s;
+            animation-iteration-count: infinite;
+            /* animation-delay:1s;  */
+            animation-timing-function: cubic-bezier(0.7,0.7,1.0,1.0);
+            animation-direction: alternate;
+        }
+        @keyframes rightMovement {
+        from{
+            top : 0px;
+            left : 0px; 
+        }
+        to{
+            top : 0px;
+            left : 1350px;
+        }
+    }
+        #box2{
+            height: 80px;
+            width : 350px;
+            background-color: aqua;
+            border: 5px solid black;
+            border-radius: 10px;
+            margin: 10px;
+            position: relative;
+            /* animation: 5s ease-in 1s infinite alternate none running leftMovement; */ 
+            animation-name:leftMovement;
+            animation-duration:5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.7,0.7,1.0,1.0);
+            animation-direction: alternate;
+        }
+        @keyframes leftMovement {
+        from{
+            top : 500px;
+            left : 1350px; 
+        }
+        to{
+            top : 500px;
+            left : 0px;
+        }
+    }
+        h1{
+        text-align: center;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        #circle{
+            height: 100px;
+            width : 100px;
+            background-color: aqua;
+            border: 5px solid black;
+            border-radius: 50px;
+            margin: 10px;
+            position: relative;
+            left: 700px;
+            top: 90px;
+            animation: 10s ease-in-out 0s infinite alternate-reverse none running circleMovement;
+        }
+        @keyframes circleMovement{
+            0%{
+                top: 1%;
+                left: 5%;
+            }
+            30%{
+                top: 1%;
+                left: 90%;
+            }
+            60%{
+                top: 60%;
+                left: 10%;
+            }
+            100%{
+                top: 60%;
+                left: 80%;
+            }
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+         <h1>
+            <b>
+            TGW
+            </b>
+        </h1>
+        </div>
+
+        <div id="box2">
+         <h1>
+            <b>
+            TGW
+            </b>
+        </h1>
+        </div>
+        <div id="circle">
+
+        </div>
+    </div>
+   
+</body>
+</html>
