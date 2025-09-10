@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">User Survey Form</h1>
+
+    <p id="description">Please fill out this form to help us understand your preferences.</p>
+
+    <form id="survey-form">
+
+        <!-- Name Field -->
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <br><br>
+
+        <!-- Email Field -->
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <!-- Number Field -->
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="number" placeholder="Enter your age" min="10" max="100" required>
+
+        <br><br>
+
+        <!-- Select Dropdown -->
+        <label for="dropdown">Select your favorite programming language:</label>
+        <select id="dropdown" name="dropdown" required>
+            <option value="">Select an option</option>
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+        </select>
+
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <label>Are you a student?</label><br>
+        <input type="radio" id="student-yes" name="student" value="yes" required>
+        <label for="student-yes">Yes</label><br>
+
+        <input type="radio" id="student-no" name="student" value="no">
+        <label for="student-no">No</label>
+
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Select your hobbies:</label><br>
+        <input type="checkbox" id="hobby-coding" name="hobbies" value="coding">
+        <label for="hobby-coding">Coding</label><br>
+
+        <input type="checkbox" id="hobby-music" name="hobbies" value="music">
+        <label for="hobby-music">Music</label><br>
+
+        <input type="checkbox" id="hobby-sports" name="hobbies" value="sports">
+        <label for="hobby-sports">Sports</label>
+
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="comments">Additional Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
