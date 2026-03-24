@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input{
+    padding: 1rem;
+    font-weight: bolder;
+}
+p{
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
