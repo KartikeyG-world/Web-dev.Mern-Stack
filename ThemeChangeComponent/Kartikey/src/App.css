@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+body{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+#dabba{
+  /* background-color: rgb(53, 52, 52); */
+  border-radius: 20px;
+  height: 300px;
+  width: 400px;
+  padding: 1.5rem;
+}
+#dabba button{
+  /* background-color: grey; */
+  /* color: white; */
+  /* padding: 1rem; */
+}
+/* #container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
