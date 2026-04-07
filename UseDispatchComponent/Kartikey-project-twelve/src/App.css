@@ -1,0 +1,12 @@
+#increment-btn,#decrement-btn , #reset-btn , #inby-btn{
+    padding: 0.7rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#input-fld{
+    padding: 0.7rem;
+    font-weight: bolder;
+}
+#para{
+    font-size: 1.8rem;
+}
