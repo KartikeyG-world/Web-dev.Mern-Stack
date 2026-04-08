@@ -1,0 +1,11 @@
+#start-btn , #stop-btn , #reset-btn{
+    padding: 0.9rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#btn-dibba{
+    display: flex;
+    flex-direction: row;
+    /* gap: 1rem; */
+    justify-content: space-between;
+}
