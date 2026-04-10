@@ -1,1 +1,1 @@
-My Web Dev Journey from the Starting.
+My Web Dev Journey from the starting.
