@@ -1,0 +1,38 @@
+#input-fld{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    width: 500px;
+    border: 2px solid white;
+}
+#card{
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(0, 85, 211); 
+}
+#btn-paste{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 2px solid white;
+    margin-top: 1rem;
+}
+#btn-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+#title{
+    text-decoration:underline;
+    color: rgb(172, 98, 241);
+}
+#content{
+    color: rgb(164, 163, 163);
+}
+#view-btn , #btn-edit{
+    text-decoration: none;
+    color: white;
+}
